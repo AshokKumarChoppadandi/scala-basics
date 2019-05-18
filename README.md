@@ -142,7 +142,7 @@ height: Float = 5.6
 	Char	: Unsigned Max value 65535
 	Short	: -32768 to 32767
 	String	: Group of characters
-	Int		: -2147483648 to 2147483647
+	Int	: -2147483648 to 2147483647
 	Long	: -9223372036854775808 to 9223372036854775807
 	Float	: -3.4028235E38 to 3.4028235E37
 	Double	: -1.7976931348623157E308 to 1.7976931348623157E307		(15 digits of precision)
@@ -182,7 +182,7 @@ res3: scala.math.BigDecimal = 3.143333333333333333333333333333333333333333333333
 
 `// This is a single line comment`
 
-### Multi Line comments: Start with (/*) and close with (*/)
+### Multi Line comments: Start with (/\*) and close with (\*/)
 ---
 
 ```
