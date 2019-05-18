@@ -25,7 +25,7 @@ res4: Int = 99
 scala> "100 - ((33 / 6) + 1 ) % 5 = " + res4
 res5: String = 100 - ((33 / 6) + 1 ) % 5 = 99
 ```
-<img src="Screenshots/scala-as-calculator.jpg">
+<img src="Screenshots/scala-as-calculator.JPG">
   
 
 ### Declaring a variable
@@ -56,7 +56,7 @@ scala> val bool = true
 bool: Boolean = true
 ```
 
-<img src="Screenshots/variable-declaration-using-val.jpg">
+<img src="Screenshots/variable-declaration-using-val.JPG">
 
 Example - Throws error when trying to assign a new value to val variable.
 
@@ -70,7 +70,7 @@ scala> testVal = "Hello"
                ^
 ```
 
-<img src="Screenshots/val-variable-reasssigning-error.jpg">
+<img src="Screenshots/val-variable-reasssigning-error.JPG">
 
 #### 2. Using var - Mutable: This value is able to change
 ---
@@ -92,7 +92,7 @@ scala> var height = 5.9f
 height: Float = 5.9
 ```
 
-<img src="Screenshots/variable-declaration-using-var.jpg">
+<img src="Screenshots/variable-declaration-using-var.JPG">
 
 Example - New values are assigned to the var variables
 
@@ -113,7 +113,7 @@ scala> height = 5.6f
 height: Float = 5.6
 ```
 
-<img src="Screenshots/var-variable-assigning-new-value.jpg">
+<img src="Screenshots/var-variable-assigning-new-value.JPG">
 
 ##### Declaring the variables with Data Types
 ---
@@ -135,7 +135,7 @@ scala> val height: Float = 5.6f
 height: Float = 5.6
 ```
 
-<img src="Screenshots/variable-declaration-with-datatype.jpg">
+<img src="Screenshots/variable-declaration-with-datatype.JPG">
 
 ### Primitive Data Types in Scala:
 ---
@@ -163,7 +163,7 @@ scala> largeNumber - 2
 res1: scala.math.BigInt = 12423451254512331241243487345873265984752379473041048123542412341231434248375421
 ```
 
-<img src="Screenshots/BigInt-declaration.jpg">
+<img src="Screenshots/BigInt-declaration.JPG">
 
 ##### BigDecimal	It hold big decimal number with high precision
 
@@ -178,7 +178,7 @@ scala> largeDecimal + largeDecimal2
 res3: scala.math.BigDecimal = 3.14333333333333333333333333333333333333333333333333333333333333333333334
 ```
 
-<img src="Screenshots/BigDecimal-declaration.jpg">
+<img src="Screenshots/BigDecimal-declaration.JPG">
 
 ### Single line comments: Two forward slashes (//)
 ---
@@ -242,7 +242,7 @@ scala> "num1 % num2 = " + (num1 % num2)
 res8: String = num1 % num2 = 1
 ```
 
-<img src="Screenshots/ArithmeticOperations.jpg">
+<img src="Screenshots/ArithmeticOperations.JPG">
 
 ##### Increment, Decrement, Multiply, Divide and Modulus
 
@@ -276,7 +276,7 @@ scala> someInteger
 res18: Int = 4
 ```
 
-<img src="Screenshots/ArithmeticOperations-2.jpg">
+<img src="Screenshots/ArithmeticOperations-2.JPG">
 
 ### Conditional Operators: 
 ---
@@ -315,7 +315,7 @@ if(age <= 12) {
 }
 ```
 
-<img src="Screenshots/If-statement.jpg">
+<img src="Screenshots/If-statement.JPG">
 
 #### WHILE Statement
 
@@ -339,7 +339,7 @@ i = 9
 i = 10
 ```
 
-<img src="Screenshots/WHILE-statement.jpg">
+<img src="Screenshots/WHILE-statement.JPG">
 
 #### DO WHILE Statement		Execute atleast once even if the given condition not satisfy
 
@@ -372,7 +372,7 @@ scala> do {
 i = 11
 ```
 
-<img src="Screenshots/DO-WHILE-statement.jpg">
+<img src="Screenshots/DO-WHILE-statement.JPG">
 
 #### FOR Statement
 
@@ -416,7 +416,7 @@ Position = 11, Letter = a
 Position = 12, Letter = l
 ```
 
-<img src="Screenshots/FOR-Statement-2.jpg">
+<img src="Screenshots/FOR-Statement-2.JPG">
 
 ```
 scala> val list = List(1, 2, 3, 4, 5, 6)
@@ -433,7 +433,7 @@ Element = 5
 Element = 6
 ```
 
-<img src="Screenshots/FOR-Statement-3.jpg">
+<img src="Screenshots/FOR-Statement-3.JPG">
 
 ```
 scala> val list = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
@@ -466,7 +466,7 @@ Element = 8
 Element = 10
 ```
 
-<img src="Screenshots/FOR-Statement-4.jpg">
+<img src="Screenshots/FOR-Statement-4.JPG">
 
 ```
 scala> for(i <- 1 to 3; j <- 4 to 6) {
@@ -493,7 +493,7 @@ i = 3
 j = 6
 ```
 
-<img src="Screenshots/FOR-Statement-5.jpg">
+<img src="Screenshots/FOR-Statement-5.JPG">
 
 ### FUNCTIONS:
 ---
@@ -508,7 +508,7 @@ scala> printHello
 Hello World
 ```
 
-<img src="Screenshots/Function-with-no-arguments.jpg">
+<img src="Screenshots/Function-with-no-arguments.JPG">
 
 ```
 scala> def add(a: Int, b: Int): Unit = {
@@ -520,7 +520,7 @@ scala> add(4, 5)
 Addition (4 + 5) = 9
 ```
 
-<img src="Screenshots/Function-with-arguments.jpg">
+<img src="Screenshots/Function-with-arguments.JPG">
 
 ```
 scala> def getAdditionValue(a: Int, b: Int): Int = {
@@ -536,7 +536,7 @@ scala> println("Addition (6 + 7) = " + getAdditionValue(6, 7))
 Addition (6 + 7) = 13
 ```
 
-<img src="Screenshots/Function-with-return-value.jpg">
+<img src="Screenshots/Function-with-return-value.JPG">
 
 ### USER INPUT:
 ---
@@ -570,8 +570,8 @@ Enter a Number of your choice ::
 The Input Number 123 is an Odd Number
 ```
 
-<img src="Screenshots/ReadLine-waiting-for-input.jpg">
-<img src="Screenshots/ReadLine-after-input.jpg">
+<img src="Screenshots/ReadLine-waiting-for-input.JPG">
+<img src="Screenshots/ReadLine-after-input.JPG">
 
 ### OUTPUT DATA:
 ---
@@ -618,4 +618,4 @@ scala> printf("Name :: %-10s, Age :: '%05d', Gender :: '%5c', Salary :: %.5f\n",
 Name :: Alice     , Age :: '00025', Gender :: '    M', Salary :: 20000.00000
 ```
 
-<img src="Screenshots/PrintStatements.jpg">
+<img src="Screenshots/PrintStatements.JPG">
