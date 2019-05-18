@@ -1,7 +1,4 @@
-# scala-basics
-
-## Scala basics for beginners
----
+# SCALA-BASICS
 
 ### Scala Shell as a Calculator
 ---  
@@ -140,15 +137,15 @@ height: Float = 5.6
 ### Primitive Data Types in Scala:
 ---
 
-Byte	: -128 to 127
-Boolean	: true or false
-Char	: Unsigned Max value 65535
-Short	: -32768 to 32767
-String	: Group of characters
-Int		: -2147483648 to 2147483647
-Long	: -9223372036854775808 to 9223372036854775807
-Float	: -3.4028235E38 to 3.4028235E37
-Double	: -1.7976931348623157E308 to 1.7976931348623157E307		(15 digits of precision)
+	Byte	: -128 to 127
+	Boolean	: true or false
+	Char	: Unsigned Max value 65535
+	Short	: -32768 to 32767
+	String	: Group of characters
+	Int		: -2147483648 to 2147483647
+	Long	: -9223372036854775808 to 9223372036854775807
+	Float	: -3.4028235E38 to 3.4028235E37
+	Double	: -1.7976931348623157E308 to 1.7976931348623157E307		(15 digits of precision)
 
 ##### BigInt	: It holds big integer numbers
 
@@ -392,7 +389,7 @@ i = 9
 i = 10
 ```
 
-<img src="Screenshots/FOR-Statement-1">
+<img src="Screenshots/FOR-Statement-1.JPG">
 
 ```
 scala> val name = "ScalaTutorial"
@@ -498,6 +495,8 @@ j = 6
 ### FUNCTIONS:
 ---
 
+Functions with No arguments and No return type:
+
 ```
 scala> def printHello(): Unit = {
      |   println("Hello World")
@@ -510,6 +509,8 @@ Hello World
 
 <img src="Screenshots/Function-with-no-arguments.JPG">
 
+Functions with arguments but No return type:
+
 ```
 scala> def add(a: Int, b: Int): Unit = {
      |   println("Addition (" + a + " + " + b + ") = " + (a + b))
@@ -521,6 +522,8 @@ Addition (4 + 5) = 9
 ```
 
 <img src="Screenshots/Function-with-arguments.JPG">
+
+Functions with arguments and return type:
 
 ```
 scala> def getAdditionValue(a: Int, b: Int): Int = {
@@ -540,6 +543,8 @@ Addition (6 + 7) = 13
 
 ### USER INPUT:
 ---
+
+Reading the data from Standard Input in the console:
 
 	readBoolean		Read the input as a Boolean
 	readByte		Read the input as Byte
@@ -575,6 +580,8 @@ The Input Number 123 is an Odd Number
 
 ### OUTPUT DATA:
 ---
+
+Displaying the results on the console in different formats:
 
 	%c		Character
 	%d		Integer
